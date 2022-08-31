@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.works-outer {
+  width: 90%;
+  margin: 70px auto 0 auto;
+  text-align: center;
+}
+
+.works-inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+figcaption {
+  width: 350px;
+  margin: 0 15px;
+}
+
+.works-inner::after {
+  display: block;
+  content: "";
+  width: 380px;
+}
+
+figcaption img {
+  width: 350px;
+  box-shadow: 0 0 8px rgb(0, 0, 0, 20%);
+}
+
+figure {
+  font-size: 16px;
+  margin: 12px 0 28px 0;
+  text-align: center;
+  font-family: Montserrat;
+}

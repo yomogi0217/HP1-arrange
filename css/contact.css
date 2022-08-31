@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.contact {
+  padding: 70px 0 70px 0;
+  background-color: #fff;
+}
+
+.contact-inner {
+  width: 70%;
+  height: 100%;
+  margin: 40px auto 0 auto;
+  text-align: left;
+  background-color: #F7F7F7;
+  padding: 90px;
+}
+
+.contact-label {
+  padding: 2rem 0 0.5rem 0;
+}
+
+.required {
+  color: #391E88;
+  font-size: 12px;
+  margin-left: 5%;
+}
+
+.contact-radio {
+  padding-bottom: 1rem;
+}
+
+.contact-radio input {
+  position: relative;
+  top: -3px;
+}
+
+label+label {
+  margin-left: 2rem;
+}
+
+.textarea {
+  border-radius: 6px;
+  border: solid #aaa 1px;
+  padding: 8px;
+  width: 300px;
+}
+
+.textarea-mini {
+  border-radius: 6px;
+  border: solid #aaa 1px;
+  padding: 8px;
+  width: 200px;
+}
+
+.gray {
+  color: #333;
+}
+
+.contact-inner textarea {
+  border-radius: 6px;
+  border: solid #aaa 1px;
+  padding: 8px;
+  width: 60%;
+  height: 20rem;
+  min-width: 300px;
+}
+
+.contact-inner select {
+  border-radius: 6px;
+  border: solid #aaa 1px;
+  padding: 8px;
+  width: 300px;
+}
+
+.more-btn {
+  display: block;
+  text-align: center;
+}
+
+.more-btn button {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 70px;
+  background: rgb(118, 51, 164);
+  background: linear-gradient(90deg, rgba(118, 51, 164, 1) 0%, rgba(37, 13, 101, 1) 100%);
+  border-radius: 50px;
+  border: 0;
+  margin-top: 50px;
+}

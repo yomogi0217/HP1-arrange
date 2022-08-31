@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  font-family: "Montserrat", serif;
+}
+
+.nav-wrap {
+  display: inline-flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #21054D;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  z-index: 1;
+  padding: 34px 30px 0 0px;
+}
+
+.nav-inner {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 30px 0 0px;
+}
+
+.nav-title{
+  padding-left: 30px;
+}
+
+.nav-title a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+nav ul li:last-child {
+  padding-right: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 95%;
+  height: 1px;
+  position: absolute;
+  background-color: #fff;
+  transition: all 0.5s;
+  transform: scale(0,0);
+  transform-origin: left;
+  top: 100%;
+  left: 0;
+}
+
+nav ul li a:hover::after {
+  transform: scale(1.1);
+}
+
+h2 {
+  color: #391E88;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.subtitle p {
+  color: #391E88;
+  margin-top: 10px;
+}
+
+.more-btn {
+  display: block;
+  text-align: center;
+}
+
+.more-btn a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 70px;
+  background: rgb(118, 51, 164);
+  background: linear-gradient(90deg, rgba(118, 51, 164, 1) 0%, rgba(37, 13, 101, 1) 100%);
+  border-radius: 50px;
+}
+
+.footer-inner {
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  padding: 70px 0;
+  position: relative;
+}
+
+.footer-circle {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 45px;
+  bottom: 45px;
+}
+
+.footer-inner ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.footer-inner ul li:last-child {
+  padding-right: 30px;
+}
+
+.footer-inner ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+p.copy {
+  color: #fff;
+  font-size: 0.6rem;
+  margin-top: 22px;
+}
