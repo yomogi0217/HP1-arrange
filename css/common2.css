@@ -11,6 +11,7 @@ a {
   width: 100%;
   height: 240px;
   position: relative;
+  background-position: center;
   z-index: 4;
 }
 
@@ -41,7 +42,6 @@ a {
   background-color: #f7f7f7;
   padding: 15px 0 15px 165px;
   text-transform: uppercase;
-  font-family: Montserrat;
 }
 
 .pan-next {
@@ -56,6 +56,43 @@ a {
   margin-top: 0px;
 }
 
+.contact-subtitle p {
+  font-family: Montserrat;
+}
+
 .form-text {
   margin: 30px 0;
+}
+
+@media screen and (max-width:570px) {
+
+  .header-inner {
+    background-position: 70%, 0;
+  }
+
+  .header-title h1 {
+    font-size: 30px;
+  }
+
+  .header-title p {
+    font-size: 13px;
+  }
+
+  .pan-list {
+    width: 100%;
+    float: left;
+    padding: 5px 0 5px 20px;
+    box-sizing: border-box;
+  }
+
+  .now-title {
+    display: inline-block;
+    width: 50%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+  }
+
 }

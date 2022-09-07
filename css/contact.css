@@ -61,7 +61,7 @@ label+label {
   padding: 8px;
   width: 60%;
   height: 20rem;
-  min-width: 300px;
+  width: 300px;
 }
 
 .contact-inner select {
@@ -88,4 +88,45 @@ label+label {
   border-radius: 50px;
   border: 0;
   margin-top: 50px;
+}
+
+@media screen and (max-width:570px) { 
+
+  .contact-subtext {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-radio > label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  label+label {
+    margin: 10px 0 0 0;
+  }
+
+  .textarea {
+    width: 70%;
+  }
+
+  .textarea-mini {
+    width: 65%;
+  }
+
+  .contact-inner {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .contact-inner textarea {
+    height: 200px;
+    width: 90%;
+  }
+
 }

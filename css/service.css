@@ -37,3 +37,27 @@
 .service-text p {
   line-height: 1.5rem;
 }
+
+@media screen and (max-width:570px) {
+
+  .service-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .service-img {
+  width: 100%;
+  margin-bottom: 18px;
+  }
+
+  .service-text {
+    width: 100%;
+    margin: 0;
+  }
+
+  .service-text h2 {
+    text-align: center;
+  }
+
+}

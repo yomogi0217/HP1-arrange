@@ -35,3 +35,23 @@ figure {
   text-align: center;
   font-family: Montserrat;
 }
+
+@media screen and (max-width:570px) {
+
+  figcaption {
+    margin-top: 40px;
+  }
+
+  figcaption:first-child {
+    margin-top: 0px;
+  }
+
+  figure {
+    margin-bottom: 0px;
+  }
+
+  .works-inner {
+    margin-bottom: 80px;
+  }
+
+}

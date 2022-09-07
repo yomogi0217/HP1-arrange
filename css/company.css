@@ -74,6 +74,14 @@ p.text2 {
   margin: 2rem 0;
 }
 
+.company-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: Montserrat;
+  color: #391E88;
+  margin-bottom: 50px;
+}
+
 .access-inner {
   width: 85%;
   margin: 0 auto;
@@ -104,4 +112,79 @@ p.text2 {
 
 .access-inner p {
   margin: 0.5rem 0 110px 0 ;
+}
+
+@media screen and (max-width:570px) {
+
+  .company-subtitle {
+    margin-top: 55px;
+  }
+
+  .company-inner {
+    margin-top: 0px;
+    background-image: url(../img/sp_bg-circle.png);
+    width: 75%;
+    padding: 50px 0 0px 0;
+    background-size: cover;
+  }
+
+  .yellow-border {
+    display: none;
+  }
+
+  .company-bg {
+    background-image: none;
+    height: 500px;
+  }
+
+  .company-text h3 {
+    font-size: 32px;
+    display: inline;
+    background: linear-gradient(transparent 80%, #F5F534 30%);
+    padding: 0px;
+    line-height: 3rem;
+    z-index: 0;
+  }
+
+  .ceo-inner {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .ceo-img {
+    width: 100%;
+  }
+
+  .ceo-text {
+    width: 100%;
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  .company-title {
+    font-size: 24px;
+  }
+
+  .access-inner th,
+  .access-inner td {
+		display: block;
+	}
+
+  .access-inner th {
+    padding: 10px 0 0 0;
+  }
+
+  .access-inner td {
+    padding: 20px 0;
+  }
+
+  .access-inner iframe {
+  width: 100%;
+  aspect-ratio: 14/10;
+  }
+
+  .access-inner p {
+    margin-bottom: 40px;
+  }
+
 }
